@@ -2,6 +2,7 @@
 
 import { FC, useState } from "react";
 import {
+  BriefcaseIcon,
   CodeBracketIcon,
   CommandLineIcon,
   EnvelopeIcon,
@@ -46,7 +47,7 @@ const NavbarOptions: FC<NavbarOptionsProps> = ({ handleActiveMenu }) => {
             onClick={() => activeNav("#experience")}
             className="flex"
           >
-            <CommandLineIcon className="text-secondary w-6 h-6 mr-2" />
+            <BriefcaseIcon className="text-secondary w-6 h-6 mr-2" />
             Experience
           </a>
           <div

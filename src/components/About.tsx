@@ -42,34 +42,43 @@ const About = () => {
           }}
           className="right w-full space-y-8"
         >
-          <div className="text-lg  text-gray-400 leading-8 space-y-6 tracking-wide ">
-            <p>
-              As an enthusiastic and driven web developer, I am actively
-              searching for opportunities to apply my skills and expertise in a
-              professional environment. With a solid educational background in
-              computer science and a specific focus on web development, I have
-              gained valuable hands-on experience through various projects.
-            </p>
-            <p>
-              Throughout my academic journey, I successfully completed several
-              noteworthy projects, including ChatApp, Movie App, Jira todo,
-              Excel Clone, and my latest addition, the Recipe Web App. These
-              projects have allowed me to showcase my proficiency in JavaScript,
-              React, Redux, HTML, and CSS while building engaging and responsive
-              web applications.
-            </p>
-            <p>
-              Beyond project work, I have dedicated myself to continuous coding
-              practice, solving over 500 challenging coding questions. This
-              ongoing pursuit has significantly strengthened my understanding of
-              data structures and algorithms, enabling me to write efficient and
-              optimized code.
-            </p>
-            <p>
-              I am excited to contribute my skills and knowledge to a
-              professional team and make a meaningful impact through my passion
-              for web development.
-            </p>
+          <div className="text-lg text-gray-400 leading-8 space-y-6 tracking-wide">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="space-y-6"
+            >
+              <p>
+                As a web developer, I love turning ideas into reality through
+                code. My passion lies in creating websites that are not just
+                functional, but also fast and easy to use.
+              </p>
+
+              <p>
+                I enjoy working with modern web technologies like{" "}
+                <span className="text-blue-400">React</span>,{" "}
+                <span className="text-blue-400">Next.js</span>, and{" "}
+                <span className="text-blue-400">Node.js</span>. What excites me
+                most is finding simple solutions to complex problems and making
+                websites that work smoothly for everyone.
+              </p>
+
+              <p>
+                Problem-solving is at the heart of what I do. I've challenged
+                myself by solving hundreds of coding problems, which has
+                sharpened my skills and taught me to write better code. I'm
+                always eager to learn new things and find better ways to build
+                on the web.
+              </p>
+
+              <p>
+                I believe in creating websites that make a real difference in
+                people's lives, and I'm excited to keep growing and learning in
+                this ever-evolving field.
+              </p>
+            </motion.div>
           </div>
           <div>
             <a href="www.linkedin.com/in/ankitmaurya-byte" target="_blank">
