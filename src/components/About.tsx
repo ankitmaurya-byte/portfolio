@@ -66,20 +66,21 @@ const About = () => {
               </p>
 
               <p>
-                Problem-solving is at the heart of what I do. I've challenged
-                myself by solving hundreds of coding problems, which has
-                sharpened my skills and taught me to write better code. I'm
-                always eager to learn new things and find better ways to build
-                on the web.
+                Problem-solving is at the heart of what I do. I&apos;ve
+                challenged myself by solving hundreds of coding problems, which
+                has sharpened my skills and taught me to write better code.
+                I&apos;m always eager to learn new things and find better ways
+                to build on the web.
               </p>
 
               <p>
                 I believe in creating websites that make a real difference in
-                people's lives, and I'm excited to keep growing and learning in
-                this ever-evolving field.
+                people&apos;s lives, and I&apos;m excited to keep growing and
+                learning in this ever-evolving field.
               </p>
             </motion.div>
           </div>
+
           <div>
             <a href="www.linkedin.com/in/ankitmaurya-byte" target="_blank">
               <button
@@ -95,5 +96,4 @@ const About = () => {
     </div>
   );
 };
-
 export default About;

@@ -64,7 +64,7 @@ const MobileNavbar = () => {
                         <button
                           type="button"
                           className="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-                          onClick={() => setIsOpen(false)}
+                          onClick={handleMenu}
                         >
                           <span className="absolute -inset-2.5" />
                           <span className="sr-only">Close panel</span>
@@ -75,7 +75,7 @@ const MobileNavbar = () => {
                     <div className="flex h-full flex-col overflow-y-scroll bg-primary py-6 shadow-xl">
                       <div className="px-4 sm:px-6">
                         <Dialog.Title className="leading-6 text-secondary text-2xl font-[700]">
-                          PG
+                          AM
                         </Dialog.Title>
                       </div>
                       <div className="relative mt-8 flex-1 px-4 sm:px-6">
