@@ -100,7 +100,7 @@ export default function Experience() {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
             <motion.div whileHover={{ scale: 1.05 }} className="relative group">
               <Image
-                src="/data mingle.png"
+                src="dataMingle.svg"
                 alt="DataMingle Analytics"
                 width={80}
                 height={80}
@@ -129,7 +129,7 @@ export default function Experience() {
               <div className="flex flex-wrap gap-4 text-gray-400 text-sm mb-4">
                 <div className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
-                  <span>4-month Internship</span>
+                  <span>3-month Internship</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <MapPin className="w-4 h-4" />
@@ -141,7 +141,7 @@ export default function Experience() {
 
           <div className="mt-8">
             <p className="text-gray-300 leading-relaxed">
-              During my 4-month internship at <strong>DataMingle</strong>, I
+              During my 3-month internship at <strong>DataMingle</strong>, I
               played a key role in building their platform from the ground up.
               Working with modern technologies, I contributed to creating a
               robust data supply chain platform while focusing on performance
