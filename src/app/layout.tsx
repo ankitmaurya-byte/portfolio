@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Hey there, I'm Ankit Maurya, and my website is your gateway to the exciting world of web development. Explore my projects, share ideas, and let's embark on this digital adventure together.",
   openGraph: {
-    images: ["/pritam.jpg"],
+    images: ["/ankit.jpeg"],
   },
 };
 
