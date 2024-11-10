@@ -25,7 +25,7 @@ const MobileNavbar = () => {
 
       {/* sidebar panel */}
       <Transition.Root show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-50" onClose={setIsOpen}>
+        <Dialog as="div" className="relative z-40" onClose={setIsOpen}>
           <Transition.Child
             as={Fragment}
             enter="ease-in-out duration-500"
@@ -64,7 +64,7 @@ const MobileNavbar = () => {
                         <button
                           type="button"
                           className="relative rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-                          onClick={handleMenu}
+                          onClick={() => setIsOpen(false)}
                         >
                           <span className="absolute -inset-2.5" />
                           <span className="sr-only">Close panel</span>
@@ -80,7 +80,7 @@ const MobileNavbar = () => {
                       </div>
                       <div className="relative mt-8 flex-1 px-4 sm:px-6">
                         {/* Panel content */}
-                        <ul className="w-full h-full flex flex-col justify-start items-start gap-6 px-6 text-gray-200 font-[500] text-lg">
+                        <ul className="w-full h-full flex flex-col justify-start items-start relative gap-6 px-6 text-gray-200 font-[500] text-lg">
                           <NavbarOptions handleActiveMenu={handleMenu} />
                         </ul>
                       </div>
