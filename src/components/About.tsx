@@ -82,7 +82,7 @@ const About = () => {
           </div>
 
           <div>
-            <a href="www.linkedin.com/in/ankitmaurya-byte" target="_blank">
+            <a href="https://linkedin.com/in/ankitmaurya-byte" target="_blank">
               <button
                 type="button"
                 className="bg-secondary px-3 py-2 mb- text-gray-200 flex items-center rounded-md hover:scale-105 hover:shadow-button duration-200"
