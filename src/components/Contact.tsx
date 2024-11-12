@@ -70,7 +70,7 @@ const Contact = () => {
             <p className="text-gray-400">Reach out to me via phone</p>
             <p>
               <a
-                href="tel:+911234567891"
+                href="tel:+918010078449"
                 className="text-gray-200 text-xl flex items-center underline hover:text-secondary duration-200"
               >
                 <PhoneIcon className="h-8 w-8 mr-5 text-secondary" />
