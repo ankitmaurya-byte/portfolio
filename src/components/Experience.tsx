@@ -1,4 +1,3 @@
-// app/components/Experience.tsx
 "use client";
 
 import { motion } from "framer-motion";
@@ -32,7 +31,7 @@ const experiences: Experience[] = [
     duration: "2 month",
     department: "Engineering",
     description:
-      "Led development of sustainable tech solutions, focusing on carbon footprint tracking and optimization. Implemented full-stack features that helped businesses monitor and reduce their environmental impact.",
+      "Managed the entire LCA (Life Cycle Assessment) architecture and implemented full-stack features for environmental impact monitoring and optimization. Developed comprehensive solutions using Node.js and React.js with real-time updates via WebSocket.",
     linkedIn: "https://www.linkedin.com/company/carboncompete",
     logoSrc: "carboncompete.svg",
     achievements: [
@@ -75,29 +74,29 @@ const experiences: Experience[] = [
     duration: "2 month",
     department: "Product Development",
     description:
-      "Played a crucial role in developing innovative mining technology solutions. Focused on creating efficient data processing systems and real-time monitoring interfaces for mining operations.",
+      "Leading the development of upcoming application TheReadyPool.com, a comprehensive job recruitment platform. Implementing full-stack solutions using Node.js, React, PostgreSQL, and WebSocket for seamless recruitment processes.",
     linkedIn: "https://www.linkedin.com/company/sminetech",
     logoSrc: "sminetech.svg",
     achievements: [
       {
         id: 1,
-        text: "Developed real-time monitoring system for mining equipment using React and Socket.io",
+        text: "Developing and implementing TheReadyPool.com recruitment platform using React and Node.js",
         icon: "💻",
       },
       {
         id: 2,
-        text: "Implemented data processing pipeline handling 1M+ daily transactions",
-        icon: "📈",
+        text: "Implementing real-time communication features using WebSocket for instant updates",
+        icon: "🔄",
       },
       {
         id: 3,
-        text: "Created automated reporting system reducing manual work by 70%",
-        icon: "📑",
+        text: "Designing and implementing PostgreSQL database architecture for efficient data management",
+        icon: "📊",
       },
       {
         id: 4,
-        text: "Led team of 3 developers in modernizing legacy systems",
-        icon: "👥",
+        text: "Creating responsive user interfaces with modern React practices and state management",
+        icon: "🎨",
       },
     ],
     skills: [
