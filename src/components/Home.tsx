@@ -109,14 +109,14 @@ const Home = () => {
         className="right flex  md:justify-end md:items-center justify-center w-full h-full "
       >
         <div className="w-[300px] h-[200px] sm:w-[400px] sm:h-[300px] md:w-[500px] md:h-[300px] lg:w-[600px] lg:h-[400px] flex justify-center items-center rounded-2xl overflow-hidden ">
-          <Image
+          {/* <Image
             width={600}
             height={400}
             loading="lazy"
             className="w-full h-full object-cover object-center rounded-2xl transition-transform hover:scale-105 duration-300"
             src="/ankit.jpeg"
             alt="ankit-maurya"
-          />
+          /> */}
         </div>{" "}
       </motion.div>
     </motion.div>

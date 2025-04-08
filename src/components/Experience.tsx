@@ -28,7 +28,7 @@ const experiences: Experience[] = [
     id: 1,
     company: "CarbonCompete",
     role: "Full Stack Developer",
-    duration: "2 month",
+    duration: "4 month",
     department: "Engineering",
     description:
       "Managed the entire LCA (Life Cycle Assessment) architecture and implemented full-stack features for environmental impact monitoring and optimization. Developed comprehensive solutions using Node.js and React.js with real-time updates via WebSocket.",
@@ -71,7 +71,7 @@ const experiences: Experience[] = [
     id: 2,
     company: "Sminetech",
     role: "Full Stack Developer",
-    duration: "2 month",
+    duration: "3 month",
     department: "Product Development",
     description:
       "Leading the development of upcoming application TheReadyPool.com, a comprehensive job recruitment platform. Implementing full-stack solutions using Node.js, React, PostgreSQL, and WebSocket for seamless recruitment processes.",
