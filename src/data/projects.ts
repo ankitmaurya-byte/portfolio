@@ -12,8 +12,7 @@ const projects: Project[] = [
   {
     id: 1,
     name: "Recipe web App",
-    image:
-      "https://res.cloudinary.com/dtc1xqzha/image/upload/v1744979555/recipe-web-app_lbodn1.png",
+    image: "/recipewebapp.svg",
     description:
       "Developed a recipe web application with a user interface, offering features like dish favoriting, search, user profiles,and detailed recipe pages.",
     keyFeatures: [
@@ -42,8 +41,7 @@ const projects: Project[] = [
   {
     id: 3,
     name: "Movie App",
-    image:
-      "https://res.cloudinary.com/dtc1xqzha/image/upload/v1744979601/movie-web-app_uzmwhd.png",
+    image: "/moviewebapp.svg",
     description:
       "Developed a web application presenting comprehensive movie details,Fetched movie information from TheMoviesDatabase using Axios.",
     keyFeatures: [
