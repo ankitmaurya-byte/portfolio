@@ -31,8 +31,8 @@ const Home = () => {
           {/* resume download and contact button */}
           <div className="flex justify-start items-center mt-8 mb-12">
             <a
-              href="/Ankit-Full_stack_developer.pdf"
-              download="resume_ankit_full_stack.pdf"
+              href="/Ankit_Maurya_Developer_Resume_Mumbai_2025.pdf"
+              download="Ankit_Maurya_Developer_Resume_Mumbai_2025.pdf"
               aria-label="Download Ankit Maurya's Fullstack Developer Resume"
               className="border transition-all duration-300 hover:border-secondary mr-6 px-3 py-2 rounded-md"
             >

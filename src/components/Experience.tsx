@@ -28,7 +28,7 @@ const experiences: Experience[] = [
     id: 1,
     company: "CarbonCompete",
     role: "Full Stack Developer",
-    duration: "4 month",
+    duration: "5 month",
     department: "Engineering",
     description:
       "Managed the entire LCA (Life Cycle Assessment) architecture and implemented full-stack features for environmental impact monitoring and optimization. Developed comprehensive solutions using Node.js and React.js with real-time updates via WebSocket.",
