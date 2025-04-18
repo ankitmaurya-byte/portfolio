@@ -28,8 +28,7 @@ const projects: Project[] = [
   {
     id: 2,
     name: "Social Products App",
-    image:
-      "https://res.cloudinary.com/dtc1xqzha/image/upload/v1744979639/ecommerce_jjrj6g.png",
+    image: "/public/ecommerce.png",
     description:
       "Developed a full-featured e-commerce website using the MERN stack,Implemented features such as product browsing, search, user authentication, shopping cart, and order management.",
     keyFeatures: [
