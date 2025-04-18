@@ -12,7 +12,8 @@ const projects: Project[] = [
   {
     id: 1,
     name: "Recipe web App",
-    image: "/recipe-web-app.png",
+    image:
+      "https://res.cloudinary.com/dtc1xqzha/image/upload/v1744979555/recipe-web-app_lbodn1.png",
     description:
       "Developed a recipe web application with a user interface, offering features like dish favoriting, search, user profiles,and detailed recipe pages.",
     keyFeatures: [
@@ -27,7 +28,8 @@ const projects: Project[] = [
   {
     id: 2,
     name: "Social Products App",
-    image: "/ecommerce.png",
+    image:
+      "https://res.cloudinary.com/dtc1xqzha/image/upload/v1744979639/ecommerce_jjrj6g.png",
     description:
       "Developed a full-featured e-commerce website using the MERN stack,Implemented features such as product browsing, search, user authentication, shopping cart, and order management.",
     keyFeatures: [
@@ -41,7 +43,8 @@ const projects: Project[] = [
   {
     id: 3,
     name: "Movie App",
-    image: "/movie-web-app.png",
+    image:
+      "https://res.cloudinary.com/dtc1xqzha/image/upload/v1744979601/movie-web-app_uzmwhd.png",
     description:
       "Developed a web application presenting comprehensive movie details,Fetched movie information from TheMoviesDatabase using Axios.",
     keyFeatures: [
