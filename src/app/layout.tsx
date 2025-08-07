@@ -1,7 +1,5 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import Navbar from "../components/Navbar";
-import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Ankit Maurya | Fullstack Web Developer",
@@ -20,8 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="max-w-[1340px] min-w-[360px] m-auto ">
-        <Navbar />
-        <ScrollToTop />
+      
         <div className="overflow-x-hidden">{children}</div>
       </body>
     </html>
