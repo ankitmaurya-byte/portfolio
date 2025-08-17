@@ -31,8 +31,8 @@ const Home = () => {
           {/* resume download and contact button */}
           <div className="flex justify-start items-center mt-8 mb-12">
             <a
-              href="/Ankit_Maurya_Developer_Resume_Mumbai_2025.pdf"
-              download="Ankit_Maurya_Developer_Resume_Mumbai_2025.pdf"
+              href="/ankit_maurya_resume.pdf"
+              download="ankit_maurya_resume.pdf"
               aria-label="Download Ankit Maurya's Fullstack Developer Resume"
               className="border transition-all duration-300 hover:border-secondary mr-6 px-3 py-2 rounded-md"
             >
@@ -109,14 +109,14 @@ const Home = () => {
         className="right flex  md:justify-end md:items-center justify-center w-full h-full "
       >
         <div className="w-[300px] h-[200px] sm:w-[400px] sm:h-[300px] md:w-[500px] md:h-[300px] lg:w-[600px] lg:h-[400px] flex justify-center items-center rounded-2xl overflow-hidden ">
-          {/* <Image
+          <Image
             width={600}
             height={400}
             loading="lazy"
-            className="w-full h-full object-cover object-center rounded-2xl transition-transform hover:scale-105 duration-300"
-            src="/ankit.jpeg"
+            className="w-full h-full object-cover object-top rounded-2xl transition-transform hover:scale-105 duration-300"
+            src="/profilepic.png"
             alt="ankit-maurya"
-          /> */}
+          />
         </div>{" "}
       </motion.div>
     </motion.div>

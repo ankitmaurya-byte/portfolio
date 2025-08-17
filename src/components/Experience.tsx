@@ -26,9 +26,62 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
+    company: "Mycorr",
+    role: "Full Stack Developer",
+    duration: "3 month",
+    department: "Engineering",
+    description:
+      "Built modern React and TypeScript dashboards, significantly increasing user engagement and interaction. Integrated secure Stripe payment gateway for smooth, reliable, and scalable transaction processing. Developed robust backend services and enhanced data visualization capabilities.",
+    linkedIn: "https://www.linkedin.com/company/carboncompete",
+    logoSrc: "mycorrhizas_logo.svg",
+    achievements: [
+      {
+        id: 1,
+        text: "Built modern React and TypeScript dashboards, increasing user engagement",
+        icon: "📈",
+      },
+      {
+        id: 2,
+        text: "Integrated secure Stripe payment gateway for scalable transactions",
+        icon: "💳",
+      },
+      {
+        id: 3,
+        text: "Built automated email notification system for real-time user alerts",
+        icon: "📧",
+      },
+      {
+        id: 4,
+        text: "Implemented dynamic report generation features in admin panel",
+        icon: "📝",
+      },
+      {
+        id: 5,
+        text: "Created interactive graphs and charts for rich data visualization",
+        icon: "📊",
+      },
+      {
+        id: 6,
+        text: "Optimized Node.js and PostgreSQL backend services for performance",
+        icon: "⚡",
+      },
+    ],
+    skills: [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "TypeScript",
+      "Docker",
+      "WebSocket",
+      "Jest",
+      "CI/CD",
+    ],
+  },
+  {
+    id: 1,
     company: "CarbonCompete",
     role: "Full Stack Developer",
-    duration: "5 month",
+    duration: "3 month",
     department: "Engineering",
     description:
       "Managed the entire LCA (Life Cycle Assessment) architecture and implemented full-stack features for environmental impact monitoring and optimization. Developed comprehensive solutions using Node.js and React.js with real-time updates via WebSocket.",
