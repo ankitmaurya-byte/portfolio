@@ -114,7 +114,7 @@ const Home = () => {
             height={400}
             loading="lazy"
             className="w-full h-full object-cover object-top rounded-2xl transition-transform hover:scale-105 duration-300"
-            src="profilepic.jpeg"
+            src="/profilepic.jpeg"
             alt="ankit-maurya"
           />
         </div>{" "}
