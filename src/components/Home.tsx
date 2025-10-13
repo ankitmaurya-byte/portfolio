@@ -113,8 +113,8 @@ const Home = () => {
             width={600}
             height={400}
             loading="lazy"
-            className="w-full h-full object-cover object-top rounded-2xl transition-transform hover:scale-105 duration-300"
-            src="/profilepic.jpeg"
+            className="w-full h-full object-cover object-center rounded-2xl transition-transform hover:scale-105 duration-300"
+            src="/linkedinANKITimage.jpeg"
             alt="ankit-maurya"
           />
         </div>{" "}
