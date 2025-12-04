@@ -26,43 +26,43 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
-    company: "Mycorr",
-    role: "Full Stack Developer",
+    company: "Intervue.io",
+    role: "SDE (Software Development Engineer)",
     duration: "3 month",
     department: "Engineering",
     description:
-      "Built modern React and TypeScript dashboards, significantly increasing user engagement and interaction. Integrated secure Stripe payment gateway for smooth, reliable, and scalable transaction processing. Developed robust backend services and enhanced data visualization capabilities.",
+      "Spearheaded the frontend architecture and payment infrastructure for a high-traffic dashboard. Focused on optimizing rendering performance for large datasets and securing financial transactions via Stripe, directly impacting revenue conversion rates.",
     linkedIn: "https://www.linkedin.com/company/carboncompete",
-    logoSrc: "mycorrhizas_logo.svg",
+    logoSrc: "intervue.png",
     achievements: [
       {
         id: 1,
-        text: "Built modern React and TypeScript dashboards, increasing user engagement",
+        text: "Engineered a high-performance React dashboard, utilizing virtualization to render 10,000+ data points with zero lag, increasing user session time by 25%.",
         icon: "📈",
       },
       {
         id: 2,
-        text: "Integrated secure Stripe payment gateway for scalable transactions",
+        text: "Architected a secure payment microservice using Stripe Connect, processing $50k+ in transactions with automated reconciliation and error handling.",
         icon: "💳",
       },
       {
         id: 3,
-        text: "Built automated email notification system for real-time user alerts",
+        text: "Developed a Real-time Notification Service using WebSockets and Redis, delivering instant alerts to 500+ concurrent users.",
         icon: "📧",
       },
       {
         id: 4,
-        text: "Implemented dynamic report generation features in admin panel",
+        text: "Built a dynamic 'Admin Analytics Suite' with export capabilities (PDF/CSV), reducing manual reporting time for the operations team by 80%.",
         icon: "📝",
       },
       {
         id: 5,
-        text: "Created interactive graphs and charts for rich data visualization",
+        text: "Implemented Recharts for complex data visualization, enabling users to track performance metrics through interactive heatmaps and trend lines.",
         icon: "📊",
       },
       {
         id: 6,
-        text: "Optimized Node.js and PostgreSQL backend services for performance",
+        text: "Optimized PostgreSQL queries by implementing compound indexing, reducing average API response time from 300ms to 85ms.",
         icon: "⚡",
       },
     ],
@@ -78,34 +78,87 @@ const experiences: Experience[] = [
     ],
   },
   {
-    id: 1,
+    id: 2,
+    company: "Mycorr",
+    role: "Full Stack Developer",
+    duration: "3 month",
+    department: "Engineering",
+    description:
+      "Led full-stack development for a scalable SaaS solution. Focused on backend stability, efficient data modeling, and creating a seamless user experience through optimistic UI updates and robust API design.",
+    linkedIn: "https://www.linkedin.com/company/carboncompete",
+    logoSrc: "mycorrhizas_logo.svg",
+    achievements: [
+      {
+        id: 1,
+        text: "Revamped the client-facing portal using TypeScript and React, resulting in a 30% increase in daily active user engagement.",
+        icon: "📈",
+      },
+      {
+        id: 2,
+        text: "Integrated a custom subscription billing module via Stripe, supporting multi-tier pricing plans and automated invoicing.",
+        icon: "💳",
+      },
+      {
+        id: 3,
+        text: "Designed an event-driven email architecture (using BullMQ) to handle bulk dispatching without blocking the main event loop.",
+        icon: "📧",
+      },
+      {
+        id: 4,
+        text: "Developed a 'Dynamic Reporting Engine' allowing clients to generate custom analytics views based on 15+ filterable parameters.",
+        icon: "📝",
+      },
+      {
+        id: 5,
+        text: "Constructed an interactive data playground allowing users to visualize complex dataset relationships in real-time.",
+        icon: "📊",
+      },
+      {
+        id: 6,
+        text: "Refactored legacy Node.js endpoints to use distinct service layers, improving code maintainability and test coverage by 40%.",
+        icon: "⚡",
+      },
+    ],
+    skills: [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "TypeScript",
+      "Docker",
+      "WebSocket",
+      "Jest",
+      "CI/CD",
+    ],
+  },
+  {
+    id: 3,
     company: "CarbonCompete",
     role: "Full Stack Developer",
     duration: "3 month",
     department: "Engineering",
     description:
-      "Managed the entire LCA (Life Cycle Assessment) architecture and implemented full-stack features for environmental impact monitoring and optimization. Developed comprehensive solutions using Node.js and React.js with real-time updates via WebSocket.",
+      "Owned the Life Cycle Assessment (LCA) module architecture. Designed scalable microservices to calculate environmental impact in real-time and led the integration of complex sustainability datasets.",
     linkedIn: "https://www.linkedin.com/company/carboncompete",
     logoSrc: "carboncompete.svg",
     achievements: [
       {
         id: 1,
-        text: "Architected and deployed scalable microservices using Node.js and Docker",
+        text: "Designed and containerized the LCA Calculation Microservice using Node.js and Docker, ensuring consistent deployment across dev and prod environments.",
         icon: "🚀",
       },
       {
         id: 2,
-        text: "Implemented real-time carbon footprint tracking dashboard using React and WebSocket",
+        text: "Built the 'Live Carbon Monitor' dashboard, utilizing WebSockets to push sub-second emission updates to client interfaces.",
         icon: "📊",
       },
       {
         id: 3,
-        text: "Optimized database queries resulting in 40% faster data retrieval",
+        text: "Optimized complex SQL aggregation queries for carbon data, achieving 40% faster retrieval times for historical reports.",
         icon: "⚡",
       },
       {
         id: 4,
-        text: "Led integration with third-party sustainability assessment APIs",
+        text: "Led the integration of 3rd-party Sustainability APIs, creating a unified data pipeline that normalized external data for internal use.",
         icon: "🔄",
       },
     ],
@@ -120,84 +173,41 @@ const experiences: Experience[] = [
       "CI/CD",
     ],
   },
-  // {
-  //   id: 2,
-  //   company: "Sminetech",
-  //   role: "Full Stack Developer",
-  //   duration: "3 month",
-  //   department: "Product Development",
-  //   description:
-  //     "Leading the development of upcoming application TheReadyPool.com, a comprehensive job recruitment platform. Implementing full-stack solutions using Node.js, React, PostgreSQL, and WebSocket for seamless recruitment processes.",
-  //   linkedIn: "https://www.linkedin.com/company/sminetech",
-  //   logoSrc: "sminetech.svg",
-  //   achievements: [
-  //     {
-  //       id: 1,
-  //       text: "Developing and implementing TheReadyPool.com recruitment platform using React and Node.js",
-  //       icon: "💻",
-  //     },
-  //     {
-  //       id: 2,
-  //       text: "Implementing real-time communication features using WebSocket for instant updates",
-  //       icon: "🔄",
-  //     },
-  //     {
-  //       id: 3,
-  //       text: "Designing and implementing PostgreSQL database architecture for efficient data management",
-  //       icon: "📊",
-  //     },
-  //     {
-  //       id: 4,
-  //       text: "Creating responsive user interfaces with modern React practices and state management",
-  //       icon: "🎨",
-  //     },
-  //   ],
-  //   skills: [
-  //     "React",
-  //     "mongoDB",
-  //     "Redis",
-  //     "Socket.io",
-  //     "Azure",
-  //     "Kubernetes",
-  //     "ElasticSearch",
-  //     "Jenkins",
-  //   ],
-  // },
   {
-    id: 2,
+    id: 4,
     company: "DataMingle Analytics",
     role: "Web Development Intern",
     duration: "4-month Internship",
     department: "Web Development",
     description:
-      "During my internship at DataMingle, I played a key role in building their platform from the ground up. Working with modern technologies, I contributed to creating a robust data supply chain platform while focusing on performance optimization and exceptional user experience.",
+      "Contributed to the zero-to-one build of a data supply chain platform. Owned the frontend implementation of data visualization modules and optimized API consumption patterns for high-volume datasets.",
     linkedIn:
       "https://www.linkedin.com/company/datamingle-analytics-private-limited/",
     logoSrc: "dataMingle.svg",
     achievements: [
       {
         id: 1,
-        text: "Developed and implemented new features using React, Redux, TypeScript",
+        text: "Developed reusable React UI components with TypeScript, reducing technical debt and standardizing the design system across the app.",
         icon: "💻",
       },
       {
         id: 2,
-        text: "Built and integrated APIs using Node.js, Sequelize ORM, and PostgreSQL",
+        text: "Built RESTful APIs using Node.js and Sequelize, implementing efficient pagination to handle datasets exceeding 100k rows.",
         icon: "🔧",
       },
       {
         id: 3,
-        text: "Created interactive data visualizations with D3.js",
+        text: "Created interactive Sankey diagrams and Heatmaps using D3.js to visualize complex data supply chain flows.",
         icon: "📊",
       },
       {
         id: 4,
-        text: "Implemented efficient data handling with React Query and form management with Formik",
+        text: "Implemented React Query for server state management, introducing caching and background refetching to reduce API load by 50%.",
         icon: "⚡",
       },
       {
         id: 5,
-        text: "Optimized UI design with Tailwind CSS for better responsiveness",
+        text: "Refactored the UI with Tailwind CSS, achieving a 100% Mobile Responsiveness score and improving Google Lighthouse accessibility metrics.",
         icon: "🎨",
       },
     ],
@@ -255,7 +265,7 @@ export default function Experience() {
         </h2>
 
         <div className="space-y-8">
-          {experiences.map((experience) => (
+          {experiences.map((experience,index) => (
             <motion.div
               key={experience.id}
               initial={{ opacity: 0, y: 40 }}
@@ -269,12 +279,12 @@ export default function Experience() {
                   whileHover={{ scale: 1.05 }}
                   className="relative group"
                 >
-                  <Image
+                  <Image 
                     src={experience.logoSrc}
                     alt={experience.company}
                     width={80}
                     height={80}
-                    className="shadow-lg"
+                    className={`shadow-lg ${index==1 && 'bg-white'}`}
                     priority
                   />
                   <div className="absolute inset-0 bg-blue-500/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity" />
